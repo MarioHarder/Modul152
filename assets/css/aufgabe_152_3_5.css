@@ -94,3 +94,21 @@ h2{
     background: #45bbff;
     color: white;
   }
+
+
+
+.rotatingimg:hover{transform:rotate(180deg);
+    filter:grayscale(100%)
+    text-shadow: 1px 1px 2px black;
+}
+.rotatingimg{transition: transform 0.6s;
+    width:500px;
+    height:500px;
+
+    
+    position: relative;
+    left: 50%;
+    margin-left: -250px;
+ 
+}
+    
